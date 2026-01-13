@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff69b4; /* Hot pink color */
+        }
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #ff1493; /* Deeper pink on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday!</h1>
+    <p>i wish u the best:)!</p>
+    <button class="button" onclick="alert('Happy Birthday! Enjoy your special day!')">Click for a Surprise!</button>
+</body>
+</html>
